@@ -1,19 +1,18 @@
-h1,h2 {
-    color: red;
-    font-family: Arial;
-    font-size: 36px;
-}
-
 p {
-    color: green;
-    font-size: 24px;
+    color: red;
+    font-size: 20px;
 }
 
-p.hiroto {
-    color: blue;
-    font-size: 72px
-}
-
-h1.hiroto {
+p.world {
     color: orange;
+    font-size: 60px;
+}
+
+#hiroto {
+    color: blue;
+    font-size: 20px;
+}
+
+.world {
+    color: green;
 }
