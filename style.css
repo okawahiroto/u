@@ -1,18 +1,36 @@
-p {
-    color: red;
-    font-size: 20px;
+#Container {
+    border: 1px solid black;
+    width: 700px;
+    height: auto;
+    position: relative;
+    /*marginの値を変えることで要素の上下範囲の余白を変えられる。*/
+    margin: 0px auto;
 }
 
-p.world {
-    color: orange;
-    font-size: 60px;
-}
-
-#hiroto {
+#Intro {
+    border: 1px solid black;
     color: blue;
-    font-size: 20px;
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    /*absoluteは他のdivを気にしないので注意*/
+    /*position: absolute;*/
+    /*fixedはページのヘッダーなど固定したいときに使用する。*/
+    position: fixed;
 }
 
-.world {
-    color: green;
+#Motivation {
+    border: 1px solid black;
+    color: blue;
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+}
+
+#Overview {
+    border: 1px solid black;
+    color: blue;
+    width: 100%;
+    height: auto;
+    background-color: red;
 }
